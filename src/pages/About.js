@@ -18,7 +18,7 @@ export default function About() {
           <img
           id='myphoto'
           src={me}
-          alt='photo of myself' />
+          alt='mariah' />
         </div>
     </div>
   );
