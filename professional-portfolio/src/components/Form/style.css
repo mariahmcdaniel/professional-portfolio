@@ -1,0 +1,50 @@
+input, textarea {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  border-radius: 58px;
+background: #EFFFCA;
+box-shadow: inset 16px 16px 33px #aeba93,
+            inset -16px -16px 33px #ffffff;
+  padding: 30px;
+  min-width: fit-content;
+}
+
+label {
+  text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+.contactCont {
+  margin: 75px;
+  margin-bottom: 200px;
+}
+
+#contMsg {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  padding: 10px;
+}
+
+#submitBtn {
+  border: 1.5px solid #dde5c9;
+  padding: .5vw 1.4vw;
+  border-radius: 58px;
+  background: #aab6af;
+  box-shadow: inset 16px 16px 33px #7c8580,
+            inset -16px -16px 33px #acbab2;
+  color: #f7fde8;
+  font-weight: 700;
+  font-size:clamp(1.2rem, 2.5vw, 1.5rem);
+  filter: drop-shadow(10px 7px 12px #48494366);
+}
+
+#thanks {
+  margin-top: 40px;
+  font-size:clamp(.7rem, 2.5vw, 1.2rem);
+  font-style: italic;
+}

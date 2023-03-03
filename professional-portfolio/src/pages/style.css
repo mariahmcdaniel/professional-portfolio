@@ -1,0 +1,125 @@
+#intro {
+  font-size: clamp(.9rem, 4vw, 1.3rem);
+  color: #38483f;
+  padding: calc(10px + 2vw);
+  border-radius: 58px;
+  background: #ebfffd;
+  box-shadow: inset 23px 23px 46px #d6e8e6,
+    inset -23px -23px 46px #ffffff;
+  min-width:fit-content;
+}
+
+#intro a {
+  text-decoration: none;
+  color: #639f7c;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(134, 131, 131, 0.3), -2px -2px 4px rgba(255,255,255,1);
+}
+
+.introCol {
+  padding: 2vw;
+}
+
+#aboutTxt {
+  margin: 30px;
+  padding: .9vw;
+  border: 2px solid #778753;
+  border-radius: 58px;
+  background: #aab6af;
+  box-shadow: inset 16px 16px 33px #7c8580,
+            inset -16px -16px 33px #d8e7de;
+  font-size: clamp(1.2rem, 4vw, 1.7rem);
+  min-width: fit-content;
+  color:#34443a;
+}
+
+.aboutCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#myphoto {
+  margin: 40px;
+}
+
+h3 {
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: clamp(1.2rem, 4vw, 1.4rem);
+}
+
+.education img {
+  margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#edu {
+  margin-top: 75px;
+}
+
+#resumeBtn {
+  padding: 10px;
+  background-color: #EFFFCA;
+}
+
+.proficiencies {
+  margin-bottom: 300px;
+}
+
+.proficiencies img {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#btnBorder {
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid #eef5e0;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.projectImg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  #intro { 
+    min-width: 300px !important;
+  }
+
+  .introCol {
+    min-width: fit-content;
+  }
+
+  #myphoto {
+    max-width: 75%;
+  }
+
+  #aboutTxt {
+    padding: 5px 20px;
+  }
+}
+
+.contactColumn{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.1vw;
+  border: 2px solid #778753;
+  border-radius: 58px;
+  background: #aab6af;
+  box-shadow: inset 16px 16px 33px #7c8580,
+            inset -16px -16px 33px #d8e7de;
+  font-size: clamp(1.2rem, 4vw, 1.7rem);
+  border: 2px solid #dde5cd50;
+  min-width: fit-content;
+  color: #34443a;
+}

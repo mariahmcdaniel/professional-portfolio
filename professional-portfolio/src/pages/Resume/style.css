@@ -1,0 +1,67 @@
+
+h3 {
+  padding: 4px;
+  margin-bottom: 20px;
+  font-size:clamp(1.2rem, 4vw, 1.4rem);
+}
+
+.education img {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#edu {
+  margin-top: 10px;
+}
+
+#resumeBtn {
+  padding: 10px;
+  border-radius: 58px;
+background: #EFFFCA;
+box-shadow: inset 16px 16px 33px #becba0,
+            inset -16px -16px 33px #ffffff;
+font-size:clamp(1.2rem, 3vw, 1.4rem);
+}
+
+.education{
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #778753;
+  border-radius: 58px;
+  background: #aab6af;
+  box-shadow: inset 16px 16px 33px #7c8580,
+            inset -16px -16px 33px #d8e7de;
+}
+
+.proficiencies {
+  margin-bottom: 300px;
+  margin-top: 50px;
+  padding: 10px;
+  border: 2px solid #778753;
+  border-radius: 58px;
+  background: #aab6af;
+  box-shadow: inset 16px 16px 33px #7c8580,
+            inset -16px -16px 33px #d8e7de;
+}
+
+.proficiencies img {
+  margin: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#btnBorder {
+  margin-top: 50px;
+  padding: 50px;
+  border: 2px solid #778753;
+  border-radius: 58px;
+  background: #aab6af;
+  box-shadow: inset 16px 16px 33px #7c8580,
+            inset -16px -16px 33px #d8e7de;
+}
