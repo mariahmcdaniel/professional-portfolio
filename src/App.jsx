@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NavTabs from "./components/Nav";
 import Resume from "./pages/Resume";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
           element={<Portfolio />} 
           />
         </Routes>
+        <Footer />
         </div>
       </Router>
     </div>
