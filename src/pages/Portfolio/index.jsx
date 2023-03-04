@@ -119,6 +119,7 @@ function ProjectDisplay() {
 export default function Portfolio() {
   return (
     <div className="projectCont">
+          <h1 id="projectsH1">My Projects...</h1>
       <ProjectDisplay />
     </div>
   );

@@ -40,6 +40,21 @@
   color: #eef5e0;
 }
 
+#projectsH1{
+  display: inline-block;
+  margin-top: 65px;
+  margin-bottom: 20px;
+  padding: .9vw 8vw;
+  border: 2px solid #778753;
+  border-radius: 58px;
+  background: #aab6af;
+  box-shadow: inset 16px 16px 33px #7c8580,
+            inset -16px -16px 33px #d8e7de;
+  font-size: clamp(1.2rem, 4vw, 1.7rem);
+  min-width: fit-content;
+  color:#34443a;
+}
+
 .repoRow {
   justify-content: center;
 }
