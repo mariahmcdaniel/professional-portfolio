@@ -11,7 +11,7 @@ export default function About() {
         </div>
         <div className='col-6 col-sm-10 introCol'>
           <p id="intro">
-            Hi, I'm Mariah! I am a full-stack web developer that is enthusiastically committed to continuous growth and adaptation in the ever-evolving world of programming. I find joy in picking up new skills and I love being able to apply my background in the creative arts and foreign languages while learning and writing code. Please <Link to='/contact'>reach out</Link> if you'd like to connect! 
+            Hi, I'm Mariah! I am a full-stack web developer that is enthusiastically committed to continuous growth and adaptation in the ever-evolving world of programming. I find joy in picking up new skills and I love being able to apply my background in the creative arts and foreign languages while learning and writing code. Please <Link id="contactLink" to='/contact'>reach out</Link> if you'd like to connect! 
           </p>
         </div>
         <div className='col'>

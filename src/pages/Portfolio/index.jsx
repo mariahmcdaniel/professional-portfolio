@@ -16,6 +16,7 @@ function ProjectDisplay() {
       link: 'https://fathomless-woodland-16696.herokuapp.com/',
       img: yaheard,
       gitHub: 'https://github.com/Simplerer/ya-heard',
+      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque quas reprehenderit laudantium deleniti dignissimos autem ipsam modi recusandae consectetur culpa alias doloribus fugiat, molestias delectus molestiae accusamus nisi? Ratione."
     },
 
     {
@@ -24,6 +25,7 @@ function ProjectDisplay() {
       link: 'https://mariahmcdaniel.github.io/simmer-down-secretary/',
       img: simmer,
       gitHub: 'https://github.com/mariahmcdaniel/simmer-down-secretary',
+      info: 'dolor sit amet consectetur adipisicing elit. Beatae eaque quas reprehenderit laudantium deleniti dignissimos autem ipsam modi molestias delectus molestiae accusamus nisi? Ratione.',
     },
 
     {
@@ -32,6 +34,7 @@ function ProjectDisplay() {
       link: 'https://mariahmcdaniel.github.io/five-day-forecast-dashboard/',
       img: weather,
       gitHub: 'https://github.com/mariahmcdaniel/five-day-forecast-dashboard',
+      info: 'Beatae eaque quas reprehenderit laudantium deleniti dignissimos autem ipsam modi recusandae consectetur culpa alias doloribus fugiat, Beatae eaque quas reprehenderit laudantium deleniti dignissimos autem ipsam modi recusandae consectetur culpa alias doloribus fugiat,',
     },
 
     {
@@ -40,6 +43,7 @@ function ProjectDisplay() {
       link: 'https://mariahmcdaniel.github.io/hourly-day-planner/',
       img: planner,
       gitHub: 'https://github.com/mariahmcdaniel/hourly-day-planner',
+      info: 'Recusandae consectetur culpa alias doloribus fugiat, Beatae eaque quas reprehenderit laudantium deleniti dignissimos autem ipsam modi recusandae consectetur culpa alias doloribus fugiat.',
     },
 
     {
@@ -48,6 +52,7 @@ function ProjectDisplay() {
       link: 'https://mariahmcdaniel.github.io/random-password-generator/',
       img: pw,
       gitHub: 'https://github.com/mariahmcdaniel/random-password-generator',
+      info: 'Dolor sit, amet consectetur adipisicing elit. Ipsa laudantium ex tenetur nam, consectetur veniam totam veritatis vero est cum dolores neque ab dignissimos velit quae corporis consequuntur? Expedita, itaque.'
     },
     {
       id: 6,
@@ -55,49 +60,50 @@ function ProjectDisplay() {
       link: 'https://hidden-fjord-54822.herokuapp.com/',
       img: note,
       gitHub: 'https://github.com/mariahmcdaniel/take-note',
+      info: 'Ipsa laudantium ex tenetur nam, consectetur veniam totam veritatis vero est cum dolores neque ab dignissimos velit quae corporis consequuntur?Beataerecusandae consectetur culpa alias doloribus fugiat,',
     }
   ];
 
   const projects = data.map(
-    (project) => {
+    (project, i) => {
       return (
-        <div className="row justify-content-md-center projectCont">
-          <div className="col-8 projectCol">
+        <div key={i} className="row justify-content-md-center projectCont">
+          <div className="col-md-9 col-sm-12 projectCol">
             <div key={project.id} className="card border-primary">
-              <div className="card-header">
+              <div key={project.name} className="card-header">
                 <h5 className="projectTitle">{project.name}</h5>
               </div>
-              <div className="card-body">
-                <div className="row imgRow">
-                  <div className="col-7">
-                  <a href={project.link}>
-                    <img
-                      className="projectImg"
-                      src={project.img}
-                      alt={project.name} />
-                  </a>
+              <div key={project.id.toString()} className="card-body">
+                <div key={project.img.toString()} className="row imgRow d-flex">
+                  <div key={i+30} className="col-5 d-flex">
+                    <a key={project.name.toUpperCase()} href={project.link}>
+                      <img
+                        className="projectImg"
+                        src={project.img}
+                        alt={project.name} />
+                    </a>
+                  </div>
+                  <div key={i+10} className="col-md-5 col-sm-7 infoCol">
+                    <p className="projectInfo">{project.info}</p>
+                  </div>
                 </div>
-                <div className="col-2 infoCol">
-                  <p className="projectInfo">PROJECT INFO</p>
-                </div>
-              </div>
-              <div className="repoRow row g-0">
-                <div className="repoCol col-3 card-text text-nowrap">
-                  <a href={project.gitHub} className="gitHubLink"><img
-                    src={gitHub}
-                    alt={project.name} /> Repository</a>
+                <div key={i+20} className="repoRow row g-0">
+                  <div key={i+40} className="repoCol col-3 card-text text-nowrap">
+                    <a href={project.gitHub} className="gitHubLink"><img
+                      src={gitHub}
+                      alt={project.name} /> Repository</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
         </div >
       );
-}
+    }
   );
 
 
-return projects;
+  return projects;
 
 
 }

@@ -16,7 +16,7 @@ import mongo from './mongo.png';
 const Resume = () => {
   return (
     <div>
-    <div className="row">
+    <div className="row resRow">
       <div className="col-7" id= "btnBorder">
       <button
         id="resumeBtn"
@@ -29,7 +29,7 @@ const Resume = () => {
       </button>
       </div>
       </div>
-      <div className="row">
+      <div className="row resRow">
       <div className="col-7 education">
         <h3 id="edu">Education</h3>
         <img
@@ -43,7 +43,7 @@ const Resume = () => {
           alt='sorbonne' />
       </div>
       </div>
-      <div className="row">
+      <div className="row resRow">
       <div className="col-7 proficiencies">
         <h3>Proficiencies</h3>
         <img

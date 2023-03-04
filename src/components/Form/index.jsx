@@ -1,11 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './style.css';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from '@emailjs/browser';
 
 function Form() {
+  const form = useRef();
   
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs.sendForm('service_s08c7nq', 'template_1fytgba', form.current, 'PPRbjM01Mlma3cxMc')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // };
+
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -16,20 +30,20 @@ function Form() {
     const inputValue = target.value;
 
     
-    if (inputType === 'email') {
+    if (inputType === 'user_email') {
       setEmail(inputValue);
-    } else if (inputType === 'name') {
+    } else if (inputType === 'user_name') {
       setName(inputValue);
+    } else if (inputType === 'user_phone') {
+      setPhone(inputValue);
     } else {
       setMessage(inputValue);
     }
   };
-
-  const handleFormSubmit = (e) => {
-   
+  
+  const sendEmail = (e) => {
     e.preventDefault();
 
-   
     if (!validateEmail(email)) {
       setErrorMessage('Please enter a valid email address.');
       
@@ -44,64 +58,81 @@ function Form() {
     }
     if (!message) {
       setErrorMessage(
-        `A message is required for your inquiry`
+        `You must include a message.`
       );
       return;
     }
-    alert(`Hello ${name}`);
 
-    
     setName('');
     setMessage('');
     setEmail('');
-  };
+    setPhone('');
 
+    emailjs.sendForm('service_s08c7nq', 'template_1fytgba', form.current, 'PPRbjM01Mlma3cxMc')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
   return (
     <div className="contactCont">
-      <form className="form">
+      <form ref={form} onSubmit={sendEmail} className="form">
         <div className="form-group">
-        <label for="email">Email:</label>
-        <input
-          value={email}
-          name="email"
-          id="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
-        </div>
-        <div className="form-group">
-        <label for="name">Name:</label>
+        <label htmlFor="user_name">*Name:</label>
         <input
           value={name}
-          name="name"
+          name="user_name"
           id="name"
           onChange={handleInputChange}
           type="text"
-          placeholder="name"
+          placeholder="Name..."
         />
         </div>
         <div className="form-group">
-        <label for="message">Mesage:</label>
+        <label htmlFor="user_email">*Email:</label>
+        <input
+          value={email}
+          name="user_email"
+          id="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="Email..."
+        />
+        </div>
+        <div className="form-group">
+        <label htmlFor="user_phone">Phone (optional):</label>
+        <input
+          value={phone}
+          name="user_phone"
+          id="phone"
+          onChange={handleInputChange}
+          type="phone"
+          placeholder="Phone Number..."
+        />
+        </div>
+        <div className="form-group">
+        <label htmlFor="message">*Mesage:</label>
         <textarea
           value={message}
           id="message"
           name="message"
-          rows="2" 
+          rows="4" 
           cols="30"
           onChange={handleInputChange}
           type="message"
           placeholder="Type your message here"
         />
         </div>
-        <button type="button" id="submitBtn" onClick={handleFormSubmit}>Submit</button>
+        <button type="submit" id="submitBtn">Submit</button>
       </form>
-      <p id="thanks">Thanks {name}!</p>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      <p id="thanks">Thanks {name}!</p>
     </div>
   );
 }

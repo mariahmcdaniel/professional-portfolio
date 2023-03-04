@@ -3,9 +3,9 @@
   color: #38483f;
   padding: calc(10px + 2vw);
   border-radius: 58px;
-  background: #ebfffd;
-  box-shadow: inset 23px 23px 46px #d6e8e6,
-    inset -23px -23px 46px #ffffff;
+  background: #b7eba1;
+  box-shadow:  8px 8px 16px #8ab678,
+             -8px -8px 16px #f0ffd0;
   min-width:fit-content;
 }
 
@@ -33,6 +33,12 @@
   color:#34443a;
 }
 
+#contactLink:hover {
+  filter: drop-shadow(4px 4px 4px #5453537e);
+  transform: translate(-2px, -2px);
+  color: #eef5e0;
+}
+
 .aboutCont {
   display: flex;
   flex-direction: column;
@@ -42,6 +48,8 @@
 
 #myphoto {
   margin: 40px;
+  box-shadow: 8px 8px 33px #7c8580,
+            -8px -8px 33px #d8e7de;
 }
 
 h3 {
@@ -108,6 +116,9 @@ h3 {
   }
 }
 
+.contactContainer{
+  justify-content: center;
+}
 .contactColumn{
   margin-top: 40px;
   display: flex;

@@ -49,7 +49,7 @@ font-size:clamp(1.2rem, 3vw, 1.4rem);
   margin: 8px;
 }
 
-.row {
+.resRow {
   display: flex;
   align-items: center;
   flex-direction: column;

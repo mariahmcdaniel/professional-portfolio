@@ -17,6 +17,10 @@
 
 }
 
+.imgRow {
+  justify-content: space-around;
+}
+
 .gitHubLink {
   border-radius: 58px;
   margin-top: 8px;
@@ -30,7 +34,7 @@
   border: 3px solid #dce7e16f;
 }
 
-a:hover {
+.gitHubLink:hover, .projectImg:hover {
   filter: drop-shadow(4px 4px 4px #5453537e);
   transform: translate(-2px, -2px);
   color: #eef5e0;
@@ -67,7 +71,11 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 20px;
   border-radius: 2vw;
-  max-width: 50%;
+  max-width: 100%;
   filter: drop-shadow(5px 5px 14px #646464b6);
   border: 2px solid #b5d6d244;
+}
+
+.projectInfo {
+  font-size: clamp(.8rem, 1.5vw, 1.5rem);
 }
