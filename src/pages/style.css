@@ -7,6 +7,7 @@
   box-shadow:  8px 8px 16px #8ab678,
              -8px -8px 16px #f0ffd0;
   min-width:fit-content;
+  border: 2px solid #92e770;
 }
 
 #intro a {
@@ -22,15 +23,15 @@
 
 #aboutTxt {
   margin: 30px;
-  padding: .9vw;
-  border: 2px solid #778753;
-  border-radius: 58px;
-  background: #aab6af;
-  box-shadow: inset 16px 16px 33px #7c8580,
-            inset -16px -16px 33px #d8e7de;
+  padding: .7vw;
+  border: 2px solid #9ea985;
+  border-radius: 0px;
+  background: #f2fff7;
+  box-shadow: inset 4px 13px 33px #828783, inset -4px -13px 33px #cbead7;
   font-size: clamp(1.2rem, 4vw, 1.7rem);
   min-width: fit-content;
   color:#34443a;
+  filter: drop-shadow(3px 4px 4px #7b797965);
 }
 
 #contactLink:hover {
@@ -118,19 +119,22 @@ h3 {
 
 .contactContainer{
   justify-content: center;
+  margin: 30px;
+  display: flex;
 }
 .contactColumn{
   margin-top: 40px;
   display: flex;
   flex-direction: column;
   padding: 1.1vw;
-  border: 2px solid #778753;
-  border-radius: 58px;
-  background: #aab6af;
-  box-shadow: inset 16px 16px 33px #7c8580,
-            inset -16px -16px 33px #d8e7de;
+  border: 2px solid #9ea985;
+  border-radius: 0px;
+  background: #f2fff7;
+    box-shadow: inset 20px 20px 80px #828783, inset -20px -20px 40px #cbead7;
   font-size: clamp(1.2rem, 4vw, 1.7rem);
-  border: 2px solid #dde5cd50;
   min-width: fit-content;
   color: #34443a;
+  margin-left: 10px;
+  margin-right: 10px;
+  filter: drop-shadow(3px 4px 4px #7b797965);
 }

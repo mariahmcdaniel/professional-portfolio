@@ -2,9 +2,9 @@
 .card {
   margin-top: 30px;
   border-radius: 58px;
-  background: #ebfffd;
-  box-shadow: inset 23px 23px 46px #d6e8e6,
-    inset -23px -23px 46px #ffffff;
+  background: #e8ecff;
+    box-shadow: inset 23px 23px 46px #a1bbb8, inset -23px -23px 46px #f3ebeb,
+    inset -10px -10px 80px #ffffff;
   min-width: fit-content;
   filter: drop-shadow(2px 5px 12px #83837c70); 
 }
@@ -45,11 +45,10 @@
   margin-top: 65px;
   margin-bottom: 20px;
   padding: .9vw 8vw;
-  border: 2px solid #778753;
-  border-radius: 58px;
-  background: #aab6af;
-  box-shadow: inset 16px 16px 33px #7c8580,
-            inset -16px -16px 33px #d8e7de;
+  border: 2px solid #9ea985;
+  border-radius: 0px;
+  background: #f2fff7;
+    box-shadow: inset 16px 16px 33px #828783, inset -16px -16px 33px #cbead7;
   font-size: clamp(1.2rem, 4vw, 1.7rem);
   min-width: fit-content;
   color:#34443a;
@@ -68,18 +67,18 @@
   padding: 1.1vw;
   border-top-right-radius: 58px !important;
   border-top-left-radius: 58px !important;
-  background: #edfbe4;
-  box-shadow: inset 23px 23px 46px #d7e8cc,
-    inset -23px -23px 46px #ffffff;
+  background: #c2f6a0;
+    box-shadow: inset 23px 23px 46px #aec59e, inset -23px -23px 46px #ffffff;
 }
 .infoCol{
   display: flex;
   align-items: center;
 }
 .projectTitle {
-  font-size: clamp(1.1rem, 4vw, 1.5rem);
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
   padding: 3px;
   margin-top: 10px;
+  font-weight: 700;
 }
 
 .projectImg {

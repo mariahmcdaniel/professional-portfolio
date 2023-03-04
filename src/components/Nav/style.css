@@ -1,9 +1,14 @@
 .nav {
   width: 100vw;
-  background: #e5eaff;
+  /* background: #e5eaff;
   box-shadow: inset 16px 16px 33px #b7baba,
-    inset -16px -16px 33px #ffffff;
-  border-radius: 0 0 20px 20px;
+    inset -16px -16px 33px #ffffff; */
+    border-bottom: 2px solid #c7cbd9;
+    border-left: 2px solid #c7cbd9;
+    border-right: 2px solid #c7cbd9;
+    background: #eff2ff;
+    box-shadow: inset 16px 16px 33px #b1adad, inset -16px -16px 33px #d8e7de;
+    border-radius: 0 0 32px 32px;
   display: flex;
   align-items: flex-end;
   padding-top: 50px;

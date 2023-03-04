@@ -3,6 +3,7 @@ h3 {
   padding: 4px;
   margin-bottom: 20px;
   font-size:clamp(1.2rem, 4vw, 1.4rem);
+  font-weight: 600;
 }
 
 .education img {
@@ -18,10 +19,18 @@ h3 {
 #resumeBtn {
   padding: 10px;
   border-radius: 58px;
-background: #EFFFCA;
-box-shadow: inset 16px 16px 33px #becba0,
-            inset -16px -16px 33px #ffffff;
+  background: #c8feb1;
+  box-shadow: inset 9px 11px 34px #96a76f, inset -19px -16px 33px #edf8c7;
 font-size:clamp(1.2rem, 3vw, 1.4rem);
+border: 1px solid #cdf444;
+font-weight: 700;
+filter: drop-shadow(2px 2px 4px #545353a2);
+
+}
+
+#resumeBtn:hover{
+  filter: drop-shadow(4px 4px 4px #5453537e);
+  transform: translate(-2px, -2px);
 }
 
 .education{

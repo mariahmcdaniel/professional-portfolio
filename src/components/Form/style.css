@@ -23,21 +23,23 @@ label {
 .contactCont {
   margin: 30px;
   margin-bottom: 200px;
+  align-items: center;
 }
 
 #contMsg {
   font-size: clamp(1rem, 2.5vw, 1.5rem);
   padding: 10px;
+  font-weight: 500;
 }
 
 #submitBtn {
-  border: 1.5px solid #dde5c9;
   padding: .5vw 1.4vw;
+  border: 2px solid #778753;
   border-radius: 58px;
   background: #aab6af;
-  box-shadow: inset 16px 16px 33px #7c8580,
-            inset -16px -16px 33px #acbab2;
-  color: #f7fde8;
+  box-shadow: inset 10px 10px 20px #7c8580,
+            inset -10px -10px 25px #d8e7de;
+  color: #485785;;
   font-weight: 700;
   font-size:clamp(1.2rem, 2.5vw, 1.5rem);
   filter: drop-shadow(10px 7px 12px #48494366);

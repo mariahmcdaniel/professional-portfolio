@@ -12,8 +12,8 @@ export default function Contact() {
         I'd love to connect with you! Please fill out this form and I will be in touch.
       </p>
       </div>
-      </div>
       < Form/>
+      </div>
     </div>
   );
 }

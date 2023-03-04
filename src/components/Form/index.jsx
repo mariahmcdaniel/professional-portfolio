@@ -71,6 +71,9 @@ function Form() {
     emailjs.sendForm('service_s08c7nq', 'template_1fytgba', form.current, 'PPRbjM01Mlma3cxMc')
       .then((result) => {
           console.log(result.text);
+          setErrorMessage(
+            `Your message has been sent`
+          );
       }, (error) => {
           console.log(error.text);
       });
