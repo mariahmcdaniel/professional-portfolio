@@ -57,9 +57,9 @@ function Form() {
   };
 
   return (
-    <div class="contactCont">
+    <div className="contactCont">
       <form className="form">
-        <div class="form-group">
+        <div className="form-group">
         <label for="email">Email:</label>
         <input
           value={email}
@@ -70,7 +70,7 @@ function Form() {
           placeholder="email"
         />
         </div>
-        <div class="form-group">
+        <div className="form-group">
         <label for="name">Name:</label>
         <input
           value={name}
@@ -81,7 +81,7 @@ function Form() {
           placeholder="name"
         />
         </div>
-        <div class="form-group">
+        <div className="form-group">
         <label for="message">Mesage:</label>
         <textarea
           value={message}

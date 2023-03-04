@@ -61,8 +61,8 @@ function ProjectDisplay() {
   const projects = data.map(
     (project) => {
       return (
-        <div class="row justify-content-md-center projectCont">
-          <div class="col-8 projectCol">
+        <div className="row justify-content-md-center projectCont">
+          <div className="col-8 projectCol">
             <div key={project.id} className="card border-primary">
               <div className="card-header">
                 <h5 className="projectTitle">{project.name}</h5>
@@ -103,7 +103,7 @@ return projects;
 }
 export default function Portfolio() {
   return (
-    <div class="projectCont">
+    <div className="projectCont">
       <ProjectDisplay />
     </div>
   );
