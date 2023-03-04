@@ -77,7 +77,7 @@ function ProjectDisplay() {
     (project, i) => {
       return (
         <div key={i} className="row justify-content-md-center projectCont">
-          <div className="col-md-9 col-sm-12 projectCol">
+          <div className="col-md-9 col-sm-12 g-0 projectCol">
             <div key={project.id} className="card border-primary">
               <div key={project.name} className="card-header">
                 <h5 className="projectTitle">{project.name}</h5>

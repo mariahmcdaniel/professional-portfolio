@@ -8,7 +8,7 @@
     border-right: 2px solid #c7cbd9;
     background: #eff2ff;
     box-shadow: inset 16px 16px 33px #b1adad, inset -16px -16px 33px #d8e7de;
-    border-radius: 0 0 32px 32px;
+    border-radius: 0 0 28px 28px;
   display: flex;
   align-items: flex-end;
   padding-top: 50px;
@@ -24,13 +24,13 @@
 .nav-item {
   margin: 0 2px;
   padding: .25vw .8vw;
-  font-size: clamp(.8rem, 2vw, 1.1rem);
+  font-size: clamp(.9rem, 2vw, 1.2rem);
   text-decoration: none !important;
   color: dimgray;
   font-weight: 500;
   text-shadow: 2px 2px 4px rgba(134, 131, 131, 0.3), -2px -2px 4px rgba(255, 255, 255, 1);
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
   background: #e7f4dd;
  box-shadow:  2px 2px 16px #98bc8a8e,
              -2px -2px 16px #f0ffd0 !important;
