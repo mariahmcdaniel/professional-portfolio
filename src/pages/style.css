@@ -160,8 +160,20 @@ h3 {
   font-weight: 800;
 }
 
-#contMsg {
+.contMsg {
   font-size: clamp(1.2rem, 4vw, 1.3rem);
   font-weight: 600;
-  padding: 10px;
+  padding: 5px;
+  margin: 0;
+}
+
+.contOr {
+  font-size: clamp(1.2rem, 4vw, 1.3rem);
+  font-weight: 800;
+  margin: 0;
+}
+
+#emailBtn {
+  background-color: #8dd0a727;
+  border: none;
 }

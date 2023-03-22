@@ -8,8 +8,14 @@ export default function Contact() {
     <div className='row contactContainer g-0'>
       <div className='col contactColumn'>
       <h1 id='contactTxt'>Would you like to get in touch with me?</h1>
-      <p id="contMsg">
-        I would love to hear from you! Please fill out this form and I will reach out.
+      <p className="contMsg">
+        You can email me at <button onClick={() => window.location.href = 'mailto:mariahmcdaniel@icloud.com'} id="emailBtn">mariahmcdaniel@icloud.com</button>
+      </p>
+      <p className="contOr">
+        - or - 
+      </p>
+      <p className="contMsg">
+        Simply fill out this form and I will reach out to you!
       </p>
       </div>
       < Form/>
