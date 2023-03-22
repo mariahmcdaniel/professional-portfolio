@@ -80,7 +80,7 @@ function Form() {
   };
   
   return (
-    <div className="contactCont">
+    <div className="col contactCont">
       <form ref={form} onSubmit={sendEmail} className="form">
         <div className="form-group">
         <label htmlFor="user_name">*Name:</label>

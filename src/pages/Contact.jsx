@@ -5,11 +5,11 @@ import './style.css';
 export default function Contact() {
   return (
     <div>
-    <div className='row contactContainer'>
-      <div className='col-8 contactColumn'>
-      <h1 id='contactTxt'>Contact Me</h1>
+    <div className='row contactContainer g-0'>
+      <div className='col contactColumn'>
+      <h1 id='contactTxt'>Would you like to get in touch with me?</h1>
       <p id="contMsg">
-        I'd love to connect with you! Please fill out this form and I will be in touch.
+        I would love to hear from you! Please fill out this form and I will reach out.
       </p>
       </div>
       < Form/>
