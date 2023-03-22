@@ -135,6 +135,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 5px;
 }
 .contactColumn{
   margin-top: 40px;

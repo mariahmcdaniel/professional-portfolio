@@ -9,6 +9,10 @@
   filter: drop-shadow(2px 5px 12px #83837c70); 
 }
 
+.projectCont {
+  margin-left: 14px;
+}
+
 .card-text {
   color: #f5fffa;
   text-align: center;
