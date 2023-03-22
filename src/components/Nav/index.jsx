@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className='container-fluid navCont g-0'>
-    <div className="row navRow g-0">
+    <div className='container-fluid navCont d-flex g-0'>
+    <div className="row navRow g-0 flex-nowrap">
       <div className="col navCol">
     <ul className="nav nav-tabs">
       <li className="nav-item">

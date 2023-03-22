@@ -1,5 +1,5 @@
 .nav {
-  width: 100vw;
+  min-width: calc(125vw + 80px);
   /* background: #e5eaff;
   box-shadow: inset 16px 16px 33px #b7baba,
     inset -16px -16px 33px #ffffff; */
@@ -19,6 +19,10 @@
 .navCol {
   display: flex !important;
   justify-content: flex-end;
+}
+
+.navCont{
+  box-sizing: content-box;
 }
 
 .nav-item {

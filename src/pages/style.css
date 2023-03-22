@@ -132,7 +132,6 @@ h3 {
 
 .contactContainer{
   justify-content: center;
-  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,7 +148,7 @@ h3 {
   border-radius: 0px;
   background: #f2fff7;
   box-shadow: inset 16px 16px 33px #94a297, inset -16px -16px 33px #cbead7;
-  font-size: clamp(1.4rem, 4vw, 2rem);
+  font-size: clamp(1.2rem, 4vw, 1.7rem);
   color: #34443a;
   filter: drop-shadow(3px 4px 4px #7b797965);
   max-width: fit-content;
