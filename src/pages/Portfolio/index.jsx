@@ -8,6 +8,7 @@ import pw from './pw.png';
 import note from './note.png';
 import gitHub from './git.png';
 import duet from './duet.png';
+import viewApp from './viewApp.png';
 
 function ProjectDisplay() {
   const data = [
@@ -98,7 +99,10 @@ function ProjectDisplay() {
                 </div>
                 <div key={i+20} className="repoRow row g-0">
                   <div key={i+40} className="repoCol col-3 card-text text-nowrap">
-                    <a href={project.gitHub} className="gitHubLink"><img
+                    <a href={project.link} target="_blank" rel="noreferrer" className="appLink"><img
+                    src={viewApp}
+                    alt={project.name} /> Open App</a>
+                    <a href={project.gitHub} target="_blank" rel="noreferrer" className="gitHubLink"><img
                       src={gitHub}
                       alt={project.name} /> Repository</a>
                   </div>

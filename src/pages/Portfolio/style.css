@@ -21,9 +21,11 @@
   justify-content: space-around;
 }
 
-.gitHubLink {
+.gitHubLink, .appLink {
   border-radius: 58px;
   margin-top: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
   background: #aebdb5ba;
   box-shadow:  8px 4px 16px #9fb4a9c2,
                -8px -4px 16px #dce7e1;
