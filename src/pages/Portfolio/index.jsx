@@ -9,6 +9,7 @@ import note from './note.png';
 import gitHub from './git.png';
 import duet from './duet.png';
 import viewApp from './viewApp.png';
+import tech from './tech.png';
 
 function ProjectDisplay() {
   const data = [
@@ -22,6 +23,14 @@ function ProjectDisplay() {
     },
     {
       id: 2,
+      name: 'Tech-Blog',
+      link: 'https://rocky-cliffs-78660.herokuapp.com/',
+      img: tech,
+      gitHub: 'https://github.com/mariahmcdaniel/tech-blog',
+      info: "A blog style application for sharing and commenting on tech-related text content. Built with ExpressJS, Handlebars, MySQL2/Sequelize and deployed to Heroku."
+    },
+    {
+      id: 3,
       name: 'Ya-Heard',
       link: 'https://fathomless-woodland-16696.herokuapp.com/',
       img: yaheard,
@@ -30,7 +39,7 @@ function ProjectDisplay() {
     },
 
     {
-      id: 3,
+      id: 4,
       name: 'Simmer-Down Secretary',
       link: 'https://mariahmcdaniel.github.io/simmer-down-secretary/',
       img: simmer,
@@ -39,7 +48,7 @@ function ProjectDisplay() {
     },
 
     {
-      id: 4,
+      id: 5,
       name: 'Weather Dashboard',
       link: 'https://mariahmcdaniel.github.io/five-day-forecast-dashboard/',
       img: weather,
@@ -48,7 +57,7 @@ function ProjectDisplay() {
     },
 
     {
-      id: 5,
+      id: 6,
       name: 'Hourly Day Planner',
       link: 'https://mariahmcdaniel.github.io/hourly-day-planner/',
       img: planner,
@@ -57,7 +66,7 @@ function ProjectDisplay() {
     },
 
     {
-      id: 6,
+      id: 7,
       name: 'Password Generator',
       link: 'https://mariahmcdaniel.github.io/random-password-generator/',
       img: pw,
@@ -65,7 +74,7 @@ function ProjectDisplay() {
       info: 'A minimalistic application built with "Vanilla-JS" that generates a random password based on user specified criteria.'
     },
     {
-      id: 7,
+      id: 8,
       name: 'Note Taker App',
       link: 'https://hidden-fjord-54822.herokuapp.com/',
       img: note,
@@ -86,7 +95,7 @@ function ProjectDisplay() {
               <div key={project.id.toString()} className="card-body">
                 <div key={project.img.toString()} className="row imgRow d-flex">
                   <div key={i+30} className="col-5 d-flex">
-                    <a key={project.name.toUpperCase()} href={project.link}>
+                    <a key={project.name.toUpperCase()} href={project.link} target="_blank" rel="noreferrer">
                       <img
                         className="projectImg"
                         src={project.img}
