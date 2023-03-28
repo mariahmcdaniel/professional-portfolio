@@ -23,7 +23,7 @@ const Resume = () => {
         type='button'
         onClick={(e) => {
           e.preventDefault();
-          window.location.href = 'https://drive.google.com/file/d/1NfZMVzecLvCtevWMVnx8FBbwv_1yKsq0/view?usp=sharing';
+          window.location.href = 'https://drive.google.com/file/d/1UEXszZSq6Z6N5085CENRFbznc-_ZFFcU/view?usp=sharing';
         }}>
         Download My Resume
       </button>
