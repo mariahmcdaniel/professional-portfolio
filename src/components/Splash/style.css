@@ -1,0 +1,149 @@
+.color-change-2x {
+	-webkit-animation: colorChange 14s linear infinite alternate both;
+	        animation: colorChange 14s linear infinite alternate both;
+}
+
+ @-webkit-keyframes colorChange {
+  0% {
+    background: linear-gradient(25deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+    }
+    25% {
+      background: linear-gradient(60deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+      }
+    50% {
+    background: linear-gradient(100deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+    }
+    75% {
+      background: linear-gradient(140deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+      }
+    100% {
+      background: linear-gradient(160deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+      }
+}
+@keyframes colorChange {
+  0% {
+  background: linear-gradient(25deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+  }
+  25% {
+    background: linear-gradient(60deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+    }
+  50% {
+  background: linear-gradient(100deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+  }
+  75% {
+    background: linear-gradient(140deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+    }
+  100% {
+    background: linear-gradient(160deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%);
+    }
+}
+
+#splashCont{
+  /* background: rgb(223,227,220);
+  background: linear-gradient(253deg, rgba(223,227,220,1) 0%, rgba(163,180,254,1) 15%, rgba(237,255,204,1) 65%, rgba(133,227,186,1) 85%); */
+  height: 100vh;
+}
+
+.splashRow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+#splashBox{
+  font-size: clamp(.9rem, 2vw, 1.3rem);
+  color: #38483f;
+  padding: 10vh 20px;
+  border-radius: 70px;
+  background: #b7eba1;
+  box-shadow:  8px 8px 16px #8ab678,
+             -8px -8px 16px #f0ffd0;
+  min-width:fit-content;
+  border: 2px solid #92e770;
+  text-decoration: none;
+  max-width: fit-content;
+  margin-top: 50px;
+  -webkit-animation: splashBox 5s linear infinite alternate-reverse both;
+  animation: splashBox 5s linear infinite alternate-reverse both;
+}
+
+ @-webkit-keyframes splashBox {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes splashBox {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+
+#splashName{
+  margin-top: 150px;
+  font-size: clamp(2rem, 2vw, 2rem);
+  color: #f0ffd0;
+  font-weight: 900;
+  text-shadow: 0 0 10px #191d44;
+  background-color: #b7eba14a;
+  padding: 10px 30px;
+  box-shadow:  4px 4px 10px #8ab678,
+             -4px -4px 10px #f0ffd0;
+}
+
+#openPort{
+  text-decoration: none;
+  font-size: clamp(1.8rem, 4vw, 2rem);
+  text-shadow: 0 0 10px #FFFFFF;
+  font-weight: 700;
+}
+
+.splashCol{
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}

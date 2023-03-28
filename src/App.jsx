@@ -8,6 +8,9 @@ import Contact from "./pages/Contact";
 import NavTabs from "./components/Nav";
 import Resume from "./pages/Resume";
 import Footer from "./components/Footer";
+import SplashPage from "./components/Splash";
+import WithNav from "./components/WithNav";
+import WithoutNav from "./components/WithoutNav";
 
 function App() {
 
@@ -15,30 +18,30 @@ function App() {
     <div className="App">
       <Router>
         <div className="appCont containter-fluid">
-        <header>
-      <NavTabs />
-      </header>
         <Routes>
-          <Route 
-          exact path="/" 
-          element={<Portfolio />} 
-          />
-          <Route 
-          path="/about" 
-          element={<About />} 
-          />
-          <Route 
-          path="/resume" 
-          element={<Resume />} 
-          />
-          <Route 
-          path="/contact" 
-          element={<Contact />} 
-          />
-          <Route 
-          path="*" 
-          element={<Portfolio />} 
-          />
+          <Route element={<WithoutNav />}>
+            <Route path="/" element={<SplashPage />} />
+          </Route>
+          <Route element={<WithNav />}>
+            <Route path="/portfolio" 
+            element={<Portfolio />} />
+            <Route 
+            path="/about" 
+            element={<About />} 
+            />
+            <Route 
+            path="/resume" 
+            element={<Resume />} 
+            />
+            <Route 
+            path="/contact" 
+            element={<Contact />} 
+            />
+            <Route 
+            path="*" 
+            element={<Portfolio />} 
+            />
+          </Route>  
         </Routes>
         <Footer />
         </div>

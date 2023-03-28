@@ -22,17 +22,6 @@
 }
 
 #aboutTxt {
-  /* margin: 30px;
-  padding: .7vw;
-  border: 2px solid #9ea985;
-  border-radius: 0px;
-  background: #f2fff7;
-  box-shadow: inset 4px 13px 33px #828783, inset -4px -13px 33px #cbead7;
-  font-size: clamp(1.2rem, 4vw, 1.7rem);
-  min-width: fit-content;
-  color:#34443a;
-  filter: drop-shadow(3px 4px 4px #7b797965); */
-
   display: inline-block;
   margin-top: 65px;
   margin-bottom: 20px;

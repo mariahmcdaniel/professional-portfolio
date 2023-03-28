@@ -1,9 +1,13 @@
 body {
   background-color: #dfe3dc !important;
+  /* min-height: 100vh;
+  min-width: 100vw; */
 }
 
 .App {
   text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .App-logo {
