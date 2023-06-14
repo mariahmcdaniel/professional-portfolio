@@ -19,7 +19,7 @@ function ProjectDisplay() {
       link: 'https://mariahmcdaniel.com',
       img: duet,
       gitHub: 'https://github.com/mariahmcdaniel/duet',
-      info: "A music centered social application that connects users to potential new friends or love interests. This app was built in collaboration with a team of developers/ music enthusiasts using the Deezer API, a MERN fullstack approach + Vite and it is deployed to Heroku."
+      info: "The portfolio that you are currently viewing!"
     },
     {
       id: 2,
