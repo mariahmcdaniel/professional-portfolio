@@ -19,7 +19,7 @@ function ProjectDisplay() {
       name: 'My Portfolio',
       link: 'https://mariahmcdaniel.com',
       img: portfolio,
-      gitHub: 'https://github.com/mariahmcdaniel/duet',
+      gitHub: 'https://github.com/mariahmcdaniel/professional-portfolio',
       info: "The portfolio that you are currently viewing!"
     },
     {
