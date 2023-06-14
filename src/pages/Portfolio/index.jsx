@@ -10,6 +10,7 @@ import gitHub from './git.png';
 import duet from './duet.png';
 import viewApp from './viewApp.png';
 import tech from './tech.png';
+import portfolio from './portfolio.png' ;
 
 function ProjectDisplay() {
   const data = [
