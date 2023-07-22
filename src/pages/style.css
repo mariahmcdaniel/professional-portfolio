@@ -17,6 +17,44 @@
   text-shadow: 2px 2px 4px rgba(134, 131, 131, 0.3), -2px -2px 4px rgba(255,255,255,1);
 }
 
+#intro2 {
+  font-size: clamp(.7rem, 4vw, 1.2rem);
+  color: #38483f;
+  padding: calc(8px + 2vw);
+  border-radius: 58px;
+  background: #c3dcb9;
+  box-shadow:  8px 8px 16px #a9d399,
+             -8px -8px 16px #f0ffd0;
+  min-width:fit-content;
+  border: 2px solid #bde9ab;
+}
+
+#intro2 a {
+  text-decoration: none;
+  color: #639f7c;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(134, 131, 131, 0.3), -2px -2px 4px rgba(255,255,255,1);
+}
+
+#intro3 {
+  font-size: clamp(.9rem, 4vw, 1.1rem);
+  color: #38483f;
+  padding: calc(7px + 2vw);
+  border-radius: 58px;
+  background: #dee8da;
+  box-shadow:  8px 8px 16px #98b78b,
+             -8px -8px 16px #f0ffd0;
+  min-width:fit-content;
+  border: 2px solid #d4e9cb;
+}
+
+#intro3 a {
+  text-decoration: none;
+  color: #639f7c;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(134, 131, 131, 0.3), -2px -2px 4px rgba(255,255,255,1);
+}
+
 .introCol {
   padding: 2vw;
 }
