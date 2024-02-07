@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import yaheard from './ya-heard.png';
+import artistgal from './artistgal.png';
 import simmer from './simmer.png';
 import weather from './weather.png';
 import planner from './planner.png';
@@ -24,6 +25,14 @@ function ProjectDisplay() {
     },
     {
       id: 2,
+      name: 'TheArtistGal.com',
+      link: 'https://www.theartistgal.com/',
+      img: artistgal,
+      gitHub: 'https://www.theartistgal.com/',
+      info: "A custom gallery website built in Webflow for a local artist to showcase their work."
+    },
+    {
+      id: 3,
       name: 'Duet',
       link: 'https://frozen-garden-71099.herokuapp.com/',
       img: duet,
@@ -31,7 +40,7 @@ function ProjectDisplay() {
       info: "A music centered social application that connects users to potential new friends or love interests. This app was built in collaboration with a team of developers/ music enthusiasts using the Deezer API, a MERN fullstack approach + Vite and it is deployed to Heroku."
     },
     {
-      id: 3,
+      id: 4,
       name: 'Tech-Blog',
       link: 'https://rocky-cliffs-78660.herokuapp.com/',
       img: tech,
@@ -39,7 +48,7 @@ function ProjectDisplay() {
       info: "A blog style application for sharing and commenting on tech-related text content. Built with ExpressJS, Handlebars, MySQL2/Sequelize and deployed to Heroku."
     },
     {
-      id: 4,
+      id: 5,
       name: 'Ya-Heard',
       link: 'https://fathomless-woodland-16696.herokuapp.com/',
       img: yaheard,
@@ -48,7 +57,7 @@ function ProjectDisplay() {
     },
 
     {
-      id: 5,
+      id: 6,
       name: 'Simmer-Down Secretary',
       link: 'https://mariahmcdaniel.github.io/simmer-down-secretary/',
       img: simmer,
@@ -57,7 +66,7 @@ function ProjectDisplay() {
     },
 
     {
-      id: 6,
+      id: 7,
       name: 'Weather Dashboard',
       link: 'https://mariahmcdaniel.github.io/five-day-forecast-dashboard/',
       img: weather,
@@ -66,7 +75,7 @@ function ProjectDisplay() {
     },
 
     {
-      id: 7,
+      id: 8,
       name: 'Hourly Day Planner',
       link: 'https://mariahmcdaniel.github.io/hourly-day-planner/',
       img: planner,
@@ -75,7 +84,7 @@ function ProjectDisplay() {
     },
 
     {
-      id: 8,
+      id: 9,
       name: 'Password Generator',
       link: 'https://mariahmcdaniel.github.io/random-password-generator/',
       img: pw,
@@ -83,7 +92,7 @@ function ProjectDisplay() {
       info: 'A minimalistic application built with "Vanilla-JS" that generates a random password based on user specified criteria.'
     },
     {
-      id: 9,
+      id: 10,
       name: 'Note Taker App',
       link: 'https://hidden-fjord-54822.herokuapp.com/',
       img: note,
