@@ -50,11 +50,11 @@
   display: inline-block;
   margin-top: 65px;
   margin-bottom: 20px;
-  padding: calc(.9vw + 10px) calc(18vw + 50px);
-  border: 2px solid #9ea985;
+  padding: calc(.9vw + 10px) calc(14vw + 50px);
+  border: 2px solid #e8ecff;
   border-radius: 0px;
   background: #f2fff7;
-    box-shadow: inset 16px 16px 33px #94a297, inset -16px -16px 33px #cbead7;
+    box-shadow: inset 16px 16px 33px #d6d8e1, inset -16px -16px 33px #cccfdc;
   font-size: clamp(1.4rem, 4vw, 2rem);
   min-width: fit-content;
   color:#485785;
@@ -76,8 +76,8 @@
   padding: 1.1vw;
   border-top-right-radius: 58px !important;
   border-top-left-radius: 58px !important;
-  background: #c2f6a0;
-    box-shadow: inset 23px 23px 46px #aec59e, inset -23px -23px 46px #ffffff;
+  background: #c0c6e2;
+    box-shadow: inset 23px 23px 46px #cdd5c8, inset -23px -23px 46px #ffffff;
 }
 .infoCol{
   display: flex;

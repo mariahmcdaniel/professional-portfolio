@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import yaheard from './ya-heard.png';
-import artistgal from './artistgal.png';
+import artistgal from './theartistgal.png';
 import simmer from './simmer.png';
 import weather from './weather.png';
 import planner from './planner.png';
@@ -12,6 +12,7 @@ import duet from './duet.png';
 import viewApp from './viewApp.png';
 import tech from './tech.png';
 import portfolio from './portfolio.png' ;
+import { Container, Row, Col } from "react-bootstrap";
 
 function ProjectDisplay() {
   const data = [
@@ -104,8 +105,8 @@ function ProjectDisplay() {
   const projects = data.map(
     (project, i) => {
       return (
-        <div key={i} className="row justify-content-md-center projectCont">
-          <div className="col-md-9 col-sm-12 g-0 projectCol">
+        <Row key={i} className="justify-content-md-center projectCont">
+          <Col className="col-md-9 col-sm-12 g-0 projectCol">
             <div key={project.id} className="card border-primary">
               <div key={project.name} className="card-header">
                 <h5 className="projectTitle">{project.name}</h5>
@@ -136,8 +137,8 @@ function ProjectDisplay() {
                 </div>
               </div>
             </div>
-          </div>
-        </div >
+          </Col>
+        </Row >
       );
     }
   );
@@ -150,7 +151,7 @@ function ProjectDisplay() {
 export default function Portfolio() {
   return (
     <div className="projectCont">
-          <h1 id="projectsH1">My Projects...</h1>
+          <h1 id="projectsH1">My Projects</h1>
       <ProjectDisplay />
     </div>
   );
