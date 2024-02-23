@@ -14,7 +14,7 @@ export default function About() {
             Hi! I'm Mariah. I am a full stack web developer currently working freelance- creating thoughtful, unique websites for artists and small businesses. I have an affinity for building React applications and am currently developing a kinship to Python but I also love coding in the basics- JavaScript, HTML and CSS. I am well versed in many other languages, libraries tools, frameworks. You can check these skills out in greater detail by visiting the <Link id="resumeLink" to='/resume'>resume tab</Link>.
             </p>
             <p id="intro2">
-            Outside of programming, I am a multidisciplinary artist. Over the past few years I've been working primarily with resin for botanical preservations. I also love to travel, I can speak french fluently and conversational spanish. I have spent time living abroad and I hope to do it again one day! Whether you are interested in hiring me for a project, have any tech-related questions for me, or just want to connect, please <Link id="contactLink" to='/contact'>reach out</Link>! 
+            Outside of programming-- I am a multidisciplinary artist. Over the past few years I've been working primarily with resin for botanical preservations. I also love to travel, I can speak french fluently and conversational spanish. I have spent time living abroad and I hope to do it again one day! Whether you are interested in hiring me for a project, have any tech-related questions for me, or just want to connect, please <Link id="contactLink" to='/contact'>reach out</Link>! 
           </p>
         </div>
         <div className='col'>
