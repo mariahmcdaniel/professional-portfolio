@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './Nav';
 import { Outlet } from 'react-router';
 
-export default () => {
+const wwn = () => {
   return (
     <>
       <header>
@@ -12,3 +12,5 @@ export default () => {
     </>
   );
 };
+
+export default wwn;

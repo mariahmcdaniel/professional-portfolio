@@ -5,12 +5,13 @@ import './App.css';
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import NavTabs from "./components/Nav";
+// import NavTabs from "./components/Nav";
 import Resume from "./pages/Resume";
 import Footer from "./components/Footer";
 import SplashPage from "./components/Splash";
 import WithNav from "./components/WithNav";
 import WithoutNav from "./components/WithoutNav";
+import Test from "./pages/Test";
 
 function App() {
 
@@ -28,6 +29,10 @@ function App() {
             <Route 
             path="/about" 
             element={<About />} 
+            />
+            <Route 
+            path="/test" 
+            element={<Test />} 
             />
             <Route 
             path="/resume" 

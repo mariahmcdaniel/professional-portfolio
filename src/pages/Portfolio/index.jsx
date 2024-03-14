@@ -11,7 +11,7 @@ import duet from './duet.png';
 import viewApp from './viewApp.png';
 import tech from './tech.png';
 import portfolio from './portfolio.png' ;
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 function ProjectDisplay() {
   const data = [
