@@ -74,3 +74,19 @@ filter: drop-shadow(2px 2px 4px #545353a2);
   box-shadow: inset 16px 16px 33px #7c8580,
             inset -16px -16px 33px #d8e7de;
 }
+
+#logo24{
+  max-width: 500px;
+}
+
+#featTesth1{
+  margin-bottom: 20px;
+  border: 2px solid #778753;
+  display: flex;
+  justify-content: center;
+  font-size: clamp(2.3rem, 4vw, 3.4rem);
+}
+
+#vidDiv{
+  margin-bottom: 20px;
+}
