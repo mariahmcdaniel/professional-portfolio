@@ -9,7 +9,7 @@ export default function Test() {
         <div className='row d-flex align-items-center testCont g-0'>
             <h1 id='featTesth1'>Features Test Page</h1>
             <div id='vidDiv' className='col-12 d-flex justify-content-center'>
-            <video autoPlay muted loop playsinline>
+            <video autoPlay muted loop playsInline>
                 <source src={fleur2} type="video/webm" />
                 <source src={fleur} type="video/mp4" />
             </video>
