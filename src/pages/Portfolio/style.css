@@ -114,6 +114,8 @@
   font-family: 'Roboto', sans-serif;
   margin-top: 2vw;
   background-color: #fdf4f4;
+  color:#5f6885;
+  font-weight: 800;
 }
 .react-tabs li{
   font-size: clamp(1.5rem, 1.5vw, 1.8rem);
@@ -140,9 +142,11 @@
 }
 
 .react-tabs__tab--selected {
-  background-color: #fff;
+  background: #f2fff7;
+    box-shadow: inset 16px 16px 33px #d6d8e1, inset -16px -16px 33px #cccfdc;
   border-color: #aaa;
-  color: #333;
+  color:#485785;
+  font-weight: 800;
   border-radius: 5px 5px 0 0;
 }
 
