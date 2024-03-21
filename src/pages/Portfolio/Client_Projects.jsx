@@ -7,16 +7,12 @@ import psLogoBlue from './PS-PortraitSticker-BrighterBlue-3399ff.png';
 import psLogoRed from './500pxPS-PortraitSticker-Red.png';
 import AnntonysOld from './AnntonysOldLogo.png';
 import AnntonysNew from './1200px-700res-TM-Revised-Logo.png';
-import gemCurrent from './2024LOGO.png'
-import gemold1 from './gemold3.png';
-import gemold2 from './gemold2.png';
-import gemold3 from './gemold4.png';
-import gemold4 from './gemold5.png';
 import PSpaint from './pattiSelfPrt.png';
 import pslogoBW from './sticker-portrait-B&W.png';
 import artgal from './ArtistGalLogo.png';
 import Carousel from '../../components/Carousel';
-
+import gemVid1 from './gemlogotrans.mp4';
+import gemVid2 from './gemlogotrans.webm';
 
 export default function Client_Projects() {
 
@@ -24,13 +20,19 @@ export default function Client_Projects() {
     <div id="clientprojCont">
         <h2 className='portH2' id="LogoDesignh2">Logo Design</h2>
         <h3>From Physical Artwork</h3>
-        <div className='row d-flex justify-content-center'>
+        <div id='gemVidDiv' className='col-12 d-flex justify-content-center'>
+            <video autoPlay muted loop playsInline>
+                <source src={gemVid2} type="video/webm" />
+                <source src={gemVid1} type="video/mp4" />
+            </video>
+            </div>
+        {/* <div className='row d-flex justify-content-center'>
         <img className="logoimg" src={gemold1} alt="custom logo"/>
         <img className="logoimg" src={gemold2} alt="custom logo"/>
         <img className="logoimg" src={gemold3} alt="custom logo"/>
         <img className="logoimg" src={gemold4} alt="custom logo"/>
         <img className="logoimg" src={gemCurrent} alt="custom logo"/>
-        </div>
+        </div> */}
         <div className='logosec row d-flex justify-content-center'>
         <img className="logoimg" src={PSpaint} alt="custom logo"/>
         <img className="logoimg" src={psLogoBlue} alt="custom logo"/>
