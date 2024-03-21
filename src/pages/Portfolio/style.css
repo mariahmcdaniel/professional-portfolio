@@ -136,13 +136,15 @@
   list-style: none;
   padding: 10px 20px;
   cursor: pointer;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-bottom: none;
   margin-bottom: -2px;
   color:#767e92;
   border-color: #aaa;
   border-radius: 5px 5px 0 0;
   filter: drop-shadow(3px 4px 4px #5a5a5a65);
+  box-shadow: 8px 8px 33px #7c8580,
+            
 }
 
 .react-tabs__tab--selected {
