@@ -142,6 +142,7 @@
   color:#767e92;
   border-color: #aaa;
   border-radius: 5px 5px 0 0;
+  filter: drop-shadow(3px 4px 4px #5a5a5a65);
 }
 
 .react-tabs__tab--selected {
@@ -151,6 +152,7 @@
   color:#485785;
   font-weight: 800;
   border-radius: 5px 5px 0 0;
+  filter: drop-shadow(3px 4px 4px #70707065);
 }
 
 .react-tabs__tab:focus {
