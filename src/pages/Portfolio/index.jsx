@@ -20,17 +20,17 @@ const MyPortfolioTabs = () => {
   return (
     <Tabs selectedIndex={activeIndex} onSelect={index => setActiveIndex(index)}>
       <TabList>
-        <Tab>View Client Projects</Tab>
         <Tab>View Applications</Tab>
+        <Tab>View Client Projects</Tab>
       </TabList>
       <TabPanel>
         <div>
-          <CLIENT_PROJECTS />
+          <BUILT_APPS />
         </div>
       </TabPanel>
       <TabPanel>
         <div>
-          <BUILT_APPS />
+          <CLIENT_PROJECTS />
         </div>
       </TabPanel>
     </Tabs>

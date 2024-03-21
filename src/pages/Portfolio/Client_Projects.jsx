@@ -15,9 +15,6 @@ import gemold4 from './gemold5.png';
 import PSpaint from './pattiSelfPrt.png';
 import pslogoBW from './sticker-portrait-B&W.png';
 import artgal from './ArtistGalLogo.png';
-// import agWF from './theartistgalWF1.png';
-// import agWF2 from './artistgalWF.png';
-// import colors from './ps-colors-fonts.png';
 import Carousel from '../../components/Carousel';
 
 
