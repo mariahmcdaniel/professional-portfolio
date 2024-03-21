@@ -139,6 +139,7 @@
   border: 1px solid transparent;
   border-bottom: none;
   margin-bottom: -2px;
+  color:#767e92;
 }
 
 .react-tabs__tab--selected {
