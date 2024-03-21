@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootswatch/dist/morph/bootstrap.min.css";
 import './App.css';
 import Portfolio from "./pages/Portfolio";
+import BUILT_APPS from "./pages/Portfolio/Built_Apps";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-// import NavTabs from "./components/Nav";
+import CLIENT_PROJECTS from "./pages/Portfolio/Client_Projects";
 import Resume from "./pages/Resume";
 import Footer from "./components/Footer";
 import SplashPage from "./components/Splash";
@@ -29,6 +30,14 @@ function App() {
             <Route 
             path="/about" 
             element={<About />} 
+            />
+            <Route 
+            path="/my-apps" 
+            element={<BUILT_APPS />} 
+            />
+            <Route 
+            path="/my-projects" 
+            element={<CLIENT_PROJECTS />} 
             />
             <Route 
             path="/test" 

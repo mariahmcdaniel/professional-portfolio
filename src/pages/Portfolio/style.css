@@ -13,6 +13,11 @@
   margin-left: 14px;
 }
 
+#clientprojCont{
+  margin-top:5vw;
+  }
+
+
 .card-text {
   color: #f5fffa;
   text-align: center;
@@ -103,4 +108,98 @@
 .projectInfo {
   font-size: clamp(.8rem, 1.5vw, 1.5rem);
   color: #2e3650;
+}
+
+.react-tabs {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2vw;
+  background-color: #fdf4f4;
+}
+.react-tabs li{
+  font-size: clamp(1.5rem, 1.5vw, 1.8rem);
+}
+
+.react-tabs li:hover{
+  filter: drop-shadow(4px 4px 4px #5453537e);
+  transform: translate(-2px, -2px);
+}
+
+.react-tabs__tab-list {
+  border-bottom: 2px solid #ccc;
+  padding-left: 0;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-bottom: none;
+  margin-bottom: -2px;
+}
+
+.react-tabs__tab--selected {
+  background-color: #fff;
+  border-color: #aaa;
+  color: #333;
+  border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.react-tabs__tab-panel {
+  padding: 16px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+
+.logoimg {
+  max-width: 200px;
+  object-fit: contain;
+}
+
+.logolong {
+  max-width: 350px;
+  object-fit: contain;
+}
+
+#agSiteBtn{
+  padding: 10px;
+  background-color: #EFFFCA;
+  margin-bottom: 2vw;
+  margin-top: 1.2vw;
+  border-radius: 40px;
+}
+
+#agSiteBtn:hover{
+  filter: drop-shadow(4px 4px 4px #5453537e);
+  transform: translate(-2px, -2px);
+}
+
+.portH2{
+  display: inline-block;
+  margin-bottom: 1.2vw;
+  padding: calc(.9vw + 10px) calc(14vw + 50px);
+  border: 2px solid #e8ecff;
+  border-radius: 0px;
+  background: #f2fff7;
+    box-shadow: inset 16px 16px 33px #d6d8e1, inset -16px -16px 33px #cccfdc;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  min-width: fit-content;
+  color:#485785;
+  font-weight: 800;
+}
+
+#clientprojCont h3{
+  color:#7c8580;
+  margin-top: 1.4vw;
+}
+
+.logosec{
+  margin-bottom: 3vw;
 }
