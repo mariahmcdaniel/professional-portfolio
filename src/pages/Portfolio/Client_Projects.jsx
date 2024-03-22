@@ -7,7 +7,7 @@ import psLogoBlue from './PS-PortraitSticker-BrighterBlue-3399ff.png';
 import psLogoRed from './500pxPS-PortraitSticker-Red.png';
 import AnntonysOld from './AnntonysOldLogo.png';
 import AnntonysNew from './1200px-700res-TM-Revised-Logo.png';
-import PSpaint from './pattiSelfPrt.png';
+import PSpaint from './selfp.png';
 import pslogoBW from './sticker-portrait-B&W.png';
 import artgal from './ArtistGalLogo.png';
 import Carousel from '../../components/Carousel';
@@ -26,13 +26,6 @@ export default function Client_Projects() {
                 <source src={gemVid1} type="video/mp4" />
             </video>
             </div>
-        {/* <div className='row d-flex justify-content-center'>
-        <img className="logoimg" src={gemold1} alt="custom logo"/>
-        <img className="logoimg" src={gemold2} alt="custom logo"/>
-        <img className="logoimg" src={gemold3} alt="custom logo"/>
-        <img className="logoimg" src={gemold4} alt="custom logo"/>
-        <img className="logoimg" src={gemCurrent} alt="custom logo"/>
-        </div> */}
         <div className='logosec row d-flex justify-content-center'>
         <img className="logoimg" src={PSpaint} alt="custom logo"/>
         <img className="logoimg" src={psLogoBlue} alt="custom logo"/>
@@ -41,12 +34,12 @@ export default function Client_Projects() {
         <img className="logolong" src={artgal} alt="custom logo"/>
         </div>
 
-        <h3>Refresh/ Revitalize</h3>
+        <h3>Update Established Branding</h3>
         <div className='logosec row d-flex justify-content-center'>
         <img className="logolong" src={AnntonysOld} alt="custom logo"/>
         <img className="logolong" src={AnntonysNew} alt="custom logo"/>
         </div>
-        <h3>Personalized Designs</h3>
+        <h3>Personalized Custom Designs</h3>
         <div className='logosec row d-flex justify-content-center'>
       <img className="logoimg" src={carolinaJoy} alt="custom logo for a farm"/>
       <img className="logoimg" src={geminIT} alt="custom logo"/>
@@ -61,7 +54,7 @@ export default function Client_Projects() {
           e.preventDefault();
           window.location.href = 'https://www.theartistgal.com/';
         }}>
-        View Live Site - The Artist Gal
+        View Live Site - TheArtistGal.com
       </button>
         <Carousel />
     </div>

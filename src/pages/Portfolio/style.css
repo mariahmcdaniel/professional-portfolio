@@ -136,15 +136,13 @@
   list-style: none;
   padding: 10px 20px;
   cursor: pointer;
-  border: 2px solid transparent;
+  border: 2px solid #aaa;
   border-bottom: none;
   margin-bottom: -2px;
   color:#767e92;
-  border-color: #aaa;
   border-radius: 5px 5px 0 0;
   filter: drop-shadow(3px 4px 4px #5a5a5a65);
-  box-shadow: 8px 8px 33px #7c8580,
-            
+  box-shadow: 8px 8px 33px #7c8580;
 }
 
 .react-tabs__tab--selected {
@@ -180,11 +178,15 @@
 }
 
 #agSiteBtn{
-  padding: 10px;
+  padding: 1.5vw;
   background-color: #EFFFCA;
   margin-bottom: 2vw;
   margin-top: 1.2vw;
   border-radius: 40px;
+  filter: drop-shadow(3px 4px 4px #5a5a5a65);
+  box-shadow: 8px 8px 33px #7c8580;
+  color:#485785;
+  font-weight: 800;
 }
 
 #agSiteBtn:hover{
@@ -212,5 +214,9 @@
 }
 
 .logosec{
+  margin-bottom: 3vw;
+}
+
+#gemVidDiv{
   margin-bottom: 3vw;
 }
