@@ -141,8 +141,8 @@ function ProjectDisplay() {
 }
 export default function Built_Apps() {
   return (
-    <div className="projectCont">
-          <h1 id="projectsH1">Web Applications</h1>
+    <div className="projectCont row d-flex justify-content-center">
+          <h1 className="d-flex col-2"id="projectsH1">Web Applications</h1>
       <ProjectDisplay />
     </div>
   );
