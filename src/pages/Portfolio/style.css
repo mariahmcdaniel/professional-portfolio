@@ -137,7 +137,7 @@
   border-bottom: none;
   margin-bottom: -2px;
   color:#767e9295;
-  text-shadow: -1px -1px 0px #ffffff51;
+  text-shadow: -1px -1px 0px #3b3a3a51;
   border-radius: 5px 5px 0 0;
   filter: drop-shadow(3px 4px 4px #5a5a5a65);
   box-shadow: inset rgba(177, 85, 137, 0.229) 0px 0px 18px 5px, rgba(0, 0, 0, 0.15) 0px 3px 3px 0px inset, inset rgba(255, 42, 163, 0.247) 0px 0px 1px 1px;
@@ -151,6 +151,18 @@
   font-weight: 800;
   border-radius: 5px 5px 0 0;
   filter: drop-shadow(3px 4px 4px #70707065);
+}
+
+.react-tabs__tab--selected::before {
+content: " ✿ ";
+/* color: rgba(216, 17, 130, 0.89); */
+background-color: rgb(216, 17, 130);
+    background-image: radial-gradient(circle, rgb(255, 23, 154)0%, #79ef4b 70%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .react-tabs__tab:focus {
