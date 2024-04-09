@@ -10,7 +10,7 @@ const MyPortfolioTabs = () => {
   return (
     <Tabs selectedIndex={activeIndex} onSelect={index => setActiveIndex(index)}>
       <TabList>
-        <Tab>Web Applications & Development</Tab>
+        <Tab>Apps & Development</Tab>
         <Tab>UI Design & Branding</Tab>
       </TabList>
       <TabPanel>
