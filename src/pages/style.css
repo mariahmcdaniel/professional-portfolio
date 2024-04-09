@@ -61,10 +61,10 @@
   margin-top: 65px;
   margin-bottom: 20px;
   padding: calc(.9vw + 10px) calc(14vw + 50px);
-  border: 2px solid #e8ecff;
+  /* border: 2px solid #e8ecff; */
   border-radius: 0px;
-  background: #f2fff7;
-    box-shadow: inset 16px 16px 33px #d6d8e1, inset -16px -16px 33px #cccfdc;
+  background: #f2fff74e;
+    box-shadow: inset 16px 16px 33px #d6d8e13b, inset -16px -16px 33px #cccfdc88, rgba(177, 85, 137, 0.267) 0px 0px 30px 3px;
   font-size: clamp(1.4rem, 4vw, 2rem);
   min-width: fit-content;
   color:#485785;

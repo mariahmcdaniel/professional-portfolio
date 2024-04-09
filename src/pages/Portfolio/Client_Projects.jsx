@@ -17,8 +17,10 @@ import gemVid2 from './gemlogotrans.webm';
 export default function Client_Projects() {
 
   return (
-    <div id="clientprojCont">
-        <h2 className='portH2' id="LogoDesignh2">Logo Design</h2>
+    <div id="clientprojCont row d-flex align-items-center justify-content-center">
+      <h1 className="d-inline-flex row"id="designH1">UI Design & Branding</h1>
+      
+        <h2 className="portH2 d-inline-flex row" id="LogoDesignh2">Logo Design</h2>
         <h3>From Physical Artwork</h3>
         <div id='gemVidDiv' className='col-12 d-flex justify-content-center'>
             <video autoPlay muted loop playsInline>

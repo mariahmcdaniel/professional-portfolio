@@ -48,16 +48,16 @@
   color: #eef5e0;
 }
 
-#projectsH1{
+#projectsH1, #designH1{
   display: inline-block;
   margin-top: 65px;
   margin-bottom: 20px;
   padding: calc(.9vw + 10px) calc(14vw + 50px);
-  border: 2px solid #e8ecff;
+  /* border: 1px solid #e8ecff; */
   border-radius: 0px;
-  background: #f2fff7;
-    box-shadow: inset 16px 16px 33px #d6d8e1, inset -16px -16px 33px #cccfdc;
-  font-size: clamp(1.4rem, 4vw, 2rem);
+  
+  font-size: clamp(1.4rem, 4vw, 2rem);background: #f2fff74e;
+  box-shadow: inset 16px 16px 33px #d6d8e13b, inset -16px -16px 33px #cccfdc88, rgba(177, 85, 137, 0.267) 0px 0px 30px 3px;
   min-width: fit-content;
   color:#485785;
   font-weight: 800;
@@ -136,15 +136,16 @@
   border: 2px solid #aaa;
   border-bottom: none;
   margin-bottom: -2px;
-  color:#767e92;
+  color:#767e9295;
+  text-shadow: -1px -1px 0px #ffffff51;
   border-radius: 5px 5px 0 0;
   filter: drop-shadow(3px 4px 4px #5a5a5a65);
-  box-shadow: 8px 8px 33px #7c8580;
+  box-shadow: inset rgba(177, 85, 137, 0.229) 0px 0px 18px 5px, rgba(0, 0, 0, 0.15) 0px 3px 3px 0px inset, inset rgba(255, 42, 163, 0.247) 0px 0px 1px 1px;
 }
 
 .react-tabs__tab--selected {
   background: #f2fff7;
-    box-shadow: inset 16px 16px 33px #d6d8e1, inset -16px -16px 33px #cccfdc;
+    box-shadow: inset 12px 10px 33px #d6d8e1, inset -10px -10px 33px #cccfdc, -9px -9px 22px #ffffff;
   border-color: #aaa;
   color:#485785;
   font-weight: 800;
@@ -195,14 +196,11 @@
   display: inline-block;
   margin-bottom: 1.2vw;
   padding: calc(.9vw + 10px) calc(14vw + 50px);
-  border: 2px solid #e8ecff;
-  border-radius: 0px;
-  background: #f2fff7;
-    box-shadow: inset 16px 16px 33px #d6d8e1, inset -16px -16px 33px #cccfdc;
   font-size: clamp(1.4rem, 4vw, 2rem);
   min-width: fit-content;
   color:#485785;
   font-weight: 800;
+  text-decoration: underline;
 }
 
 #clientprojCont h3{
